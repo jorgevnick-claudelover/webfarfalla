@@ -49,7 +49,7 @@
     "latitude": 39.5146091,
     "longitude": -0.4348316
   },
-  "hasMap": "https://www.google.com/maps/place/FARFALLA/@39.514694,-0.4347895,20.19z/data=!4m6!3m5!1s0xd604563937ca13d:0x93e1b0c909470cc0!8m2!3d39.5146091!4d-0.4348316",
+  "hasMap": "https://maps.app.goo.gl/iYYDegNuvNAba85P9?g_st=ic",
   "openingHoursSpecification": [
     {"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"08:00","closes":"22:00"},
     {"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"08:00","closes":"22:00"},
@@ -521,6 +521,7 @@ footer a:hover{color:#fff}
   <nav class="lang" aria-label="Selector de idioma">
     <button type="button" data-lang="es" class="active" aria-pressed="true">ES</button>
     <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-lang="ru" aria-pressed="false">RU</button>
   </nav>
 </header>
 
@@ -892,7 +893,7 @@ footer a:hover{color:#fff}
           </a>
         </div>
         <div class="location-buttons">
-          <a class="btn btn-dark" target="_blank" rel="noopener" href="https://www.google.com/maps/place/FARFALLA/@39.514694,-0.4347895,20.19z/data=!4m6!3m5!1s0xd604563937ca13d:0x93e1b0c909470cc0!8m2!3d39.5146091!4d-0.4348316">
+          <a class="btn btn-dark" target="_blank" rel="noopener" href="https://maps.app.goo.gl/iYYDegNuvNAba85P9?g_st=ic">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span data-i18n="loc.btn.maps">Cómo llegar</span>
           </a>
@@ -938,7 +939,7 @@ footer a:hover{color:#fff}
         </div>
         <div><div class="label">Facebook</div><div class="value">FARFALLA Paterna</div></div>
       </a>
-      <a class="connect-card maps" target="_blank" rel="noopener" href="https://www.google.com/maps/place/FARFALLA/@39.514694,-0.4347895,20.19z/data=!4m6!3m5!1s0xd604563937ca13d:0x93e1b0c909470cc0!8m2!3d39.5146091!4d-0.4348316">
+      <a class="connect-card maps" target="_blank" rel="noopener" href="https://maps.app.goo.gl/iYYDegNuvNAba85P9?g_st=ic">
         <div class="icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         </div>
@@ -980,7 +981,7 @@ footer a:hover{color:#fff}
       <ul>
         <li><a href="tel:+34624914993">+34 624 91 49 93</a></li>
         <li><a target="_blank" rel="noopener" href="https://wa.me/34624914993">WhatsApp</a></li>
-        <li><a target="_blank" rel="noopener" href="https://www.google.com/maps/place/FARFALLA/@39.514694,-0.4347895,20.19z/data=!4m6!3m5!1s0xd604563937ca13d:0x93e1b0c909470cc0!8m2!3d39.5146091!4d-0.4348316">Carrer Llicsó, s/n<br>46980 Paterna, Valencia</a></li>
+        <li><a target="_blank" rel="noopener" href="https://maps.app.goo.gl/iYYDegNuvNAba85P9?g_st=ic">Carrer Llicsó, s/n<br>46980 Paterna, Valencia</a></li>
       </ul>
     </div>
     <div>
@@ -1338,12 +1339,171 @@ footer a:hover{color:#fff}
       'fab.reserve':'Book a table',
       'fab.whatsapp':'Message us on WhatsApp',
       'fab.call':'Call us'
+    },
+    ru: {
+      'hero.sub':'Бар · Кофейня · Кондитерская',
+      'hero.tagline':'Вино, гастрономия и уютная атмосфера. Спешелти-кофе и домашние десерты в сердце Патерны.',
+      'hero.cta.menu':'Меню',
+      'hero.cta.where':'Как добраться',
+      'hero.scroll':'Откройте',
+
+      'hours.eyebrow':'Загляните к нам',
+      'hours.title':'Часы работы',
+      'hours.closed':'Закрыто',
+      'hours.note':'Кофейный комбо доступен каждое утро с 8:00 до 12:00',
+
+      'day.mon':'Понедельник','day.tue':'Вторник','day.wed':'Среда','day.thu':'Четверг',
+      'day.fri':'Пятница','day.sat':'Суббота','day.sun':'Воскресенье','day.tue_thu':'Вт – Чт',
+
+      'menu.eyebrow':'Что мы предлагаем',
+      'menu.title':'Меню',
+      'menu.intro':'Честная кухня, отборные продукты и домашние соусы. Цены указаны с НДС.',
+      'tab.breakfast':'Завтрак',
+      'tab.sandwiches':'Сэндвичи и тосты',
+      'tab.share':'Закуски',
+      'tab.salads':'Салаты',
+      'tab.oven':'Из печи',
+      'tab.drinks':'Напитки',
+      'tab.sweets':'Десерты',
+
+      'cat.breakfast':'Завтрак',
+      'cat.combo_coffee':'Кофейный комбо',
+      'cat.sandwiches':'Сэндвичи',
+      'cat.sandwiches.sub':'с домашними соусами',
+      'cat.toast':'Тосты',
+      'cat.share':'Закуски',
+      'cat.salads':'Салаты',
+      'cat.oven':'Из печи',
+      'cat.oven.sub':'с соусами от шефа',
+      'cat.coffee':'Кофе',
+      'cat.other':'Чай, напитки и многое другое',
+      'cat.sweets':'Домашние десерты',
+      'cat.sweets.sub':'домашняя выпечка, ассортимент меняется каждый день',
+
+      'd.tort_jq':'Французский омлет с хамоном и сыром',
+      'd.tort_sa':'Французский омлет с лососем и авокадо',
+      'd.avena':'Овсянка с фруктами',
+      'd.yogur':'Йогурт с гранолой',
+      'd.pancakes':'Панкейки',
+      'd.note':'Пальчики оближешь',
+
+      'b.pollo':'Курица, сыр, помидор, салат, соус',
+      'b.jt':'Хамон, помидор',
+      'b.jtql':'Хамон, помидор, сыр, салат',
+      'b.hblq':'Яйцо, бекон, салат, сыр',
+
+      't.aceite':'С оливковым маслом',
+      't.tomate':'С томатом',
+      't.mantequilla':'С маслом и джемом',
+      't.huevo':'С яйцом и авокадо',
+      't.atun':'Тунец с помидором',
+      't.jq':'Хамон и сыр',
+      't.jtom':'Хамон и помидор',
+      't.salmon':'Лосось, сыр, авокадо',
+      't.note':'Проще простого',
+
+      'p.aceitunas':'Оливки',
+      'p.papas':'Чипсы',
+      'p.focaccia':'Фокачча с оливками',
+      'p.focaccia.price':'3,70 € / 3 шт',
+      'p.tequenos':'Текеньос с сыром',
+      'p.pizza1':'Пицца Маргарита / Пепперони / 4 сыра',
+      'p.pizza2':'Пицца Хамон / Хамон и грибы',
+      'p.rusa':'Оливье',
+      'p.tellinas':'Тельины (моллюски)',
+      'p.tabla_jamon':'Доска с иберийским хамоном',
+      'p.tabla_embutidos':'Доска с колбасной нарезкой',
+      'p.tabla_queso':'Сырная доска',
+      'p.note':'Невероятно вкусно!',
+
+      'combo.coffee.items':'Café con leche · американо · кортадо · эспрессо',
+      'combo.coffee.toast':'тост с маслом · томатом · маслом и джемом',
+      'combo.when':'Комбо',
+      'combo.pizza.items':'Маргарита · Пепперони · Хамон · Хамон и грибы',
+      'combo.pizza.drink':'напиток или пиво',
+
+      'e.cesar':'Цезарь с домашним соусом',
+      'e.griego':'Греческий',
+      'e.buratta':'Помидоры с буратой',
+      'e.salmon':'С лососем и домашним соусом',
+
+      'h.costillas':'Рёбрышки барбекю',
+      'h.costillas.desc':'свиные рёбрышки, соус барбекю, запечённый картофель',
+      'h.magret':'Магре утки',
+      'h.magret.desc':'утиная грудка, руккола, запечённое яблоко, черничный джем',
+      'h.pulpo':'Осьминог с картофельным пюре',
+      'h.pulpo.desc':'осьминог, руккола, соус из петрушки, картофель, трюфель',
+      'h.salmon':'Лосось с овощами',
+      'h.salmon.desc':'лосось, соус из петрушки, картофель, черри',
+      'h.tataki':'Тунец татаки',
+      'h.tataki.desc':'тунец, кунжут, вакаме, соевый соус, лимон',
+      'h.note':'Невероятно вкусно!',
+
+      'c.espresso':'Эспрессо',
+      'c.americano':'Американо',
+      'c.leche':'Кафе с молоком',
+      'c.capuchino':'Капучино',
+      'c.bombon':'Кафе бомбон (со сгущёнкой)',
+      'c.cortado':'Кортадо',
+      'c.carajillo':'Караджильо (кофе с бренди)',
+      'c.cremaet':'Кремает (валенсийский кофе)',
+      'c.flat':'Флэт уайт',
+      'c.iced':'Айс латте',
+      'c.note':'Жизнь коротка, а кофе долог',
+
+      'o.infusiones':'Травяные чаи',
+      'o.infusiones.desc':'чёрный, зелёный, мята, ромашка, ройбос',
+      'o.te':'Чай',
+      'o.te.desc':'зелёный / чёрный в чайнике с фруктами и цветами · 1 литр',
+      'o.matcha':'Матча латте',
+      'o.refrescos':'Газированные напитки',
+      'o.refrescos.desc':'Coca-Cola · Fanta · Sprite · Fuze Tea · Aquarius',
+      'o.zumos':'Соки',
+      'o.zumos.desc':'яблоко · манго · ананас · персик · апельсин',
+      'o.zumo_natural':'Свежевыжатый апельсиновый сок',
+      'o.aguas':'Вода',
+      'o.aguas.desc':'Font Vella · Font Vella с газом',
+      'o.smoothie':'Смузи',
+      'o.milkshake':'Молочный коктейль',
+      'o.colacao':'Кола-Као (какао с молоком)',
+
+      'sweets.note':'Спросите у официанта о десерте дня, наших молочных коктейлях и смузи',
+
+      'allergen.title':'Список аллергенов',
+      'al.1':'Глютенсодержащие злаки','al.2':'Ракообразные','al.3':'Яйца','al.4':'Рыба',
+      'al.5':'Арахис','al.6':'Соя','al.7':'Молочные продукты','al.8':'Орехи',
+      'al.9':'Сельдерей','al.10':'Горчица','al.11':'Кунжут',
+      'al.12':'Сульфиты','al.13':'Моллюски','al.14':'Люпин',
+
+      'loc.eyebrow':'Найдите нас',
+      'loc.title':'Адрес',
+      'loc.addr':'Carrer Llicsó, s/n',
+      'loc.hours_link':'Полное расписание',
+      'loc.btn.maps':'Маршрут',
+      'loc.btn.glovo':'Заказать через Glovo',
+
+      'connect.eyebrow':'Будьте на связи',
+      'connect.title':'Свяжитесь с нами',
+      'connect.intro':'Подписывайтесь, чтобы не пропустить новинки, десерты дня и наши мероприятия.',
+      'connect.maps':'Маршрут',
+      'connect.call':'Позвонить',
+      'connect.glovo':'Доставка',
+
+      'footer.contact':'Контакты',
+      'footer.hours':'Часы работы',
+      'footer.tagline':'Вино, гастрономия и уютная атмосфера. Спешелти-кофе и домашние десерты в Патерне.',
+      'footer.rights':'Все права защищены',
+
+      'fab.reserve':'Забронировать',
+      'fab.whatsapp':'Написать в WhatsApp',
+      'fab.call':'Позвонить'
     }
   };
 
   const titles = {
     es: 'FARFALLA — Café de especialidad, vino y postres en Paterna',
-    en: 'FARFALLA — Specialty coffee, wine and pastries in Paterna'
+    en: 'FARFALLA — Specialty coffee, wine and pastries in Paterna',
+    ru: 'FARFALLA — Спешелти-кофе, вино и десерты в Патерне'
   };
 
   function applyLang(lang){
@@ -1367,7 +1527,12 @@ footer a:hover{color:#fff}
   });
 
   const stored = (function(){ try { return localStorage.getItem('farfalla.lang'); } catch(e){ return null; } })();
-  const initial = stored || (navigator.language && navigator.language.startsWith('en') ? 'en' : 'es');
+  const initial = stored || (function(){
+    const nav = (navigator.language || '').toLowerCase();
+    if(nav.startsWith('ru')) return 'ru';
+    if(nav.startsWith('en')) return 'en';
+    return 'es';
+  })();
   applyLang(initial);
 
   /* ---------- HEADER SCROLLED ---------- */
